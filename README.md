@@ -13,10 +13,7 @@ _____________________
 I am a student at the University of Pittsburgh studying Computer Science 👨‍🎓
 
 * Class of 2026 🎓
-* FullStack Web Development using AWS 🕸
-* Founder of PittLocalMusic.com 🎸
+* FullStack Web Development using MERN Stack 🕸
 * AI and Machine Learning experience 🤖
 
 ---------------------
-
-
