@@ -1,35 +1,121 @@
-# Hello, I'm Caden 👋
-
-### Software Engineer, Systems, ML, and AI Enthusiast
-
 ## About Me
-I'm a passionate software engineer studying Computer Science at University of Pittsburgh, with experience building real-world applications through internships at Carnegie Mellon's Software Engineering Institute (where I published a blog post) and Bank of New York.
 
-I won first place at SteelHacks XI and love exploring AI and modern web applications. This dashboard monitors all my deployed applications in real-time.
+I build high-performance solutions to solve complex problems.  
+My work has been [awarded](https://devpost.com/software/triviatok?_gl=1*1mirvpr*_gcl_au*MjExMTA2NzUzMC4xNzY4OTQxMjY0*_ga*MTk5NDE1MjI4NC4xNzY4OTQxMjY0*_ga_0YHJK3Y10M*czE3Njg5NDEyNjMkbzEkZzEkdDE3Njg5NDEyNjkkajU0JGwwJGgw) and [published](https://www.sei.cmu.edu/authors/caden-milne/).
 
-You can checkout my portfolio at [cadenmilne.com](https://cadenmilne.com)
+If you are a potential employer, consider checking out my
+[resumé](https://drive.google.com/file/d/1p2inT9qGLjOhfvW28fB7kBGTrsj6kKWC/view?usp=sharing) or
+[LinkedIn](https://www.linkedin.com/in/cadenmilne04/).
+
+I can also be reached at my personal email  
+[cadenmilne@gmail.com](mailto:cadenmilne@gmail.com)
+
+### Current Interests
+
+- Go (programming language)
+- Functional Programming (Haskell + Elixir)
+- Vim + productivity workflows (see my [dotfiles](https://github.com/CadenMilne04/dotfiles))
+- Linux, Docker, and distributed systems
+- Automation
+- Music production, skateboarding, coffee
+
+---
+
+## Work Experience
+
+### Bank of New York (BNY)
+
+I spent the summer of 2025 in Lake Mary, FL working at the
+[Bank of New York](https://www.bny.com/corporate/global/en.html).
+
+**Accomplishments:**
+- Built and shipped new features for an enterprise app used by 5,000+ employees, focusing on speed and usability.
+- Wrote Python scripts using internal AI tools to boost test coverage by ~20%, helping catch bugs before production.
+- Shipped 20+ frontend and backend features and fixes to production with zero rollbacks.
+
+---
+
+### Carnegie Mellon University – Software Engineering Institute (SEI)
+
+From May 2024 to May 2025, I worked at
+[Carnegie Mellon University's Software Engineering Institute](https://www.sei.cmu.edu/)
+in Pittsburgh, PA.
+
+**Accomplishments:**
+- Automated upgrades and releases across five applications, cutting release time in half and removing human error.
+- Helped improve and clarify the SEI CERT C Coding Standards, contributing secure C development guidance.
+- Built and shipped a scalable automation tool for SSL certificate renewals, saving engineers ~2 hours per renewal cycle.
+- Designed user-friendly CLI tools that reduced log retrieval time by 70%.
+- Set up CI/CD pipelines for both new and legacy projects, speeding up deployments by ~40%.
+- Added extensive error handling to a custom Rust-based installer, covering 90% more failure cases.
+- Refactored and standardized large legacy codebases, improving maintainability and onboarding speed.
+
+---
 
 ## Projects
 
-### GPT-Style Encoder & Inference Engine | C, AI/ML, Linear Algebra
-- Engineered a transformer-based encoder from scratch in C, capable of training on thousands of sentences.
-- Implemented a custom inference engine for next-word predictions, enabling practical low-level ML without external libraries.
+Most of these can be found on my [GitHub](https://github.com/CadenMilne04).
 
-### Nintendo Entertainment System Emulator | Rust
-- Achieved 100% instruction coverage by implementing all 151 official and 105 unofficial opcodes	 of the MOS 6502 CPU.
-- Established seamless cross-platform compatibility by leveraging Rust’s portability to support Windows, MacOS, and Linux.
+### GPT-style Transformer
 
-### Compiler for Subset of Java Programming Language | C, C++, Yacc, Bison, Flex
-- Developed a compiler capable of parsing and executing a subset of Java, passing 100% of custom test cases.
-- Designed lexical and syntax analyzers with Flex and Bison, reducing parsing errors by 90% compared to baseline.
+A transformer-based language model encoder built entirely from scratch in C, focusing on low-level machine learning and inference without external libraries.  
+**Tools:** C, Linear Algebra, AI/ML
 
-### TCP Implementation in C | C, Wireshark
-- Built a TCP protocol implementation in C, achieving reliable data transfer with <2% packet loss in simulated networks.
-- Validated functionality with integration tests across multiple OS environments, ensuring compliance with TCP standards.
+- Implemented a GPT-style transformer encoder capable of training on thousands of sentences.
+- Built a custom inference engine for next-word prediction without ML frameworks.
 
-### TriviaTok.us | React.js, Express.js, Node.js, MongoDB
-- Launched a social media web application utilizing Google’s Gemini API to create thousands of questions on demand.
-- Architected a robust, scalable backend RESTful API using Express.js and MongoDB, resulting in 100% data accessibility.
+---
 
-## Stats
-[![GitHub Streak](https://streak-stats.demolab.com?user=CadenMilne04&theme=transparent&border_radius=10&mode=weekly)](https://git.io/streak-stats)
+### Nintendo Entertainment System Emulator
+
+A fully featured NES emulator with complete CPU instruction support and cross-platform compatibility.  
+**Tools:** Rust
+
+- Implemented all 151 official and 105 unofficial MOS 6502 CPU opcodes.
+- Designed a portable architecture supporting Windows, macOS, and Linux.
+
+---
+
+### Compiler for a Subset of Java
+
+A compiler for a subset of the Java programming language, including lexical analysis, parsing, and execution.  
+**Tools:** C, C++, Flex, Bison, Yacc
+
+- Built a compiler capable of parsing and executing a subset of Java.
+- Developed lexical and syntax analyzers that passed all custom test cases.
+
+---
+
+### TCP Implementation
+
+A low-level implementation of the TCP protocol focused on reliability and standards compliance.  
+**Tools:** C, Wireshark
+
+- Implemented core TCP functionality for reliable data transfer.
+- Tested across simulated network conditions with packet loss and multiple operating systems.
+
+---
+
+### TriviaTok
+
+A social media trivia platform that generates and serves large volumes of questions on demand.  
+**Tools:** React, Express, Node.js, MongoDB  
+[Check it out](https://triviatok.cadenmilne.com)!
+
+- Built a full-stack app generating thousands of trivia questions using AI.
+- Designed a scalable REST API with persistent storage.
+
+---
+
+### AlbumAI
+
+A music history tool that lets you explore key albums from any genre.  
+**Tools:** React, Express, Node.js, SQLite  
+[Check it out](https://albumai.cadenmilne.com)!
+
+- Built an interactive web frontend for exploring albums over time.
+- Used AI to generate album relationship data and populate a cached database.
+
+---
+
+_Last updated: 01/20/2026_
